@@ -15,7 +15,15 @@ cd news-parsing-app/api
 python manage.py runserver
 ```
 
+### Запуск тестов
+
+Тесты следует запускать при работающем сервере.
+
+```
+cd news-parsing-app/api
+python manage.py test
+```
+
 ## Описание API
 
 См. [API.md](API.md)
-"# news-parsing-app" 
