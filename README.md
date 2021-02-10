@@ -18,4 +18,3 @@ python manage.py runserver
 ## Описание API
 
 См. [API.md](API.md)
-"# news-parsing-app" 
