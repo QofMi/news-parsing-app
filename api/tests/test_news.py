@@ -2,7 +2,7 @@ import requests
 from .test_setup import TestSetUp
 
 
-API_URL = 'http://localhost:5000/posts'
+API_URL = 'http://localhost:8000/posts'
 
 
 class TestNews(TestSetUp):
