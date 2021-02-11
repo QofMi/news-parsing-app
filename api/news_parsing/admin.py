@@ -5,6 +5,6 @@ from .models import News
 @admin.register(News)
 class AdminNews(admin.ModelAdmin):
     """
-    Регистраци модели AdminNews в административной части сайта
+    Регистраци модели News в административной панели.
     """
     list_display = ['title', 'url', 'created']

@@ -5,6 +5,10 @@ from .services import *
 
 
 class GetNews(GetNewsMixin, APIView):
+    """
+    Получение списка постов с возможностью фильтрации.
+    Создание новостных постов.
+    """
     model = News
     serializer = NewsSerializers
     default_limit = 5

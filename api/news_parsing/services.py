@@ -31,6 +31,8 @@ class GetNewsMixin:
             if offset or limit:
                 if int(offset) < 0:
                     raise Exception('Invalid offset')
+                if int(offset) > self.model.objects.all().count():
+                    raise Exception('Invalid offset')
                 if int(limit) < 0:
                     raise Exception('Invalid limit')
 
